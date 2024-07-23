@@ -22,6 +22,14 @@ const Home: NextPage = () => {
             <Address address={connectedAddress} />
           </div>
           <p className="text-center text-lg">
+            First of all, use the faucet to get some $EDU{" "}
+            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
+              <Link href="https://drpc.org/faucet/open-campus-codex" target="_blank">
+                https://drpc.org/faucet/open-campus-codex{" "}
+              </Link>
+            </code>
+          </p>
+          <p className="text-center text-lg">
             Get started by editing{" "}
             <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
               packages/nextjs/app/page.tsx
