@@ -30,7 +30,7 @@ const config: HardhatUserConfig = {
       },
     },
   },
-  defaultNetwork: "localhost",
+  defaultNetwork: "opencampus",
   namedAccounts: {
     deployer: {
       // By default, it will take the first Hardhat account as the deployer
@@ -116,6 +116,10 @@ const config: HardhatUserConfig = {
     },
     pgnTestnet: {
       url: "https://sepolia.publicgoods.network",
+      accounts: [deployerPrivateKey],
+    },
+    opencampus: {
+      url: `https://rpc.open-campus-codex.gelato.digital/`,
       accounts: [deployerPrivateKey],
     },
   },

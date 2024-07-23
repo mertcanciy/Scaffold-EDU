@@ -5,7 +5,7 @@
   <a href="https://scaffoldeth.io">Website</a>
 </h4>
 
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
+🧪 Scaffold-EDU is a fork of Scaffold-ETH2 with minimal differences, providing additional dApp examples, native support for Open Campus Codex and it can be used during the EDU Chain Hackathon. We highly recommend the Scaffold-ETH2 docs as the primary guideline.
 
 ⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
 

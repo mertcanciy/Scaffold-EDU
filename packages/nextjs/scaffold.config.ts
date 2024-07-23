@@ -8,9 +8,31 @@ export type ScaffoldConfig = {
   onlyLocalBurnerWallet: boolean;
 };
 
+export const opencampus = {
+  id: 656476,
+  name: "opencampus",
+  rpcUrls: {
+    public: { http: ["https://rpc.open-campus-codex.gelato.digital"] },
+    default: { http: ["https://rpc.open-campus-codex.gelato.digital"] },
+  },
+  blockExplorers: {
+    default: {
+      name: "Open Campus Codex",
+      url: "https://opencampus.gelatoscout.com",
+      apiUrl: "https://opencampus.gelatoscout.com/api",
+    },
+  },
+  nativeCurrency: {
+    decimals: 18,
+    name: "EDU",
+    symbol: "EDU",
+  },
+  testnet: true,
+} as const satisfies chains.Chain;
+
 const scaffoldConfig = {
   // The networks on which your DApp is live
-  targetNetworks: [chains.hardhat],
+  targetNetworks: [opencampus],
 
   // The interval at which your front-end polls the RPC servers for new data
   // it has no effect if you only target the local network (default is 4000)
