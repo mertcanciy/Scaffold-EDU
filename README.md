@@ -7,6 +7,8 @@
 
 🧪 Scaffold-EDU is a fork of Scaffold-ETH2 with minimal differences, providing additional dApp examples, native support for Open Campus Codex and it can be used during the EDU Chain Hackathon. We highly recommend the Scaffold-ETH2 docs as the primary guideline.
 
+**FOR THE FAUCET, PLEASE USE THIS WEBSITE**: https://drpc.org/faucet/open-campus-codex
+
 ⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
 
 - ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
