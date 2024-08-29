@@ -18,8 +18,8 @@ export const opencampus = {
   blockExplorers: {
     default: {
       name: "Open Campus Codex",
-      url: "https://opencampus.gelatoscout.com",
-      apiUrl: "https://opencampus.gelatoscout.com/api",
+      url: "https://opencampus-codex.blockscout.com",
+      apiUrl: "https://opencampus-codex.blockscout.com/api/",
     },
   },
   nativeCurrency: {
